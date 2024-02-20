@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Calculateur d'Anniversaire</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="calculator-block">
+        <h1>Calculateur d'Anniversaire</h1>
+        <p>Entrez votre date et heure de naissance, et la date et l'heure pour laquelle vous voulez calculer.</p>
+        <input type="date" id="birthday-input" placeholder="Entrez votre date de naissance">
+        <input type="time" id="time-input" placeholder="Entrez votre heure de naissance">
+        <input type="date" id="date-input" placeholder="Entrez la date pour le calcul">
+        <input type="time" id="hour-input" placeholder="Entrez l'heure pour le calcul">
+        <button onclick="calculateTime()">Calculer</button>
+        <div id="results"></div>
+        <div class="signature">Designed by Brenya Sonabo</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
